@@ -1,0 +1,127 @@
+/** {*/
+/*    float:right;*/
+/*    */
+/*}*/
+
+body{
+
+    direction:rtl;
+    overflow-x: hidden;
+}
+section
+{
+    padding: 20px 0px;
+}
+header
+{
+    /*background-size: cover;*/
+    background-image: url("../images/pw_maze.png") ;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding: 100px;
+
+}
+.title
+{
+    width: 25% !important;
+    font-size: 2.5em;
+    padding: 20px 0px;
+    color: rgba(0,0,0,0.7);
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    display: block;
+    margin: auto;
+    margin-bottom:20px ;
+;
+}
+header img
+{
+    width: 100px;
+    height: auto;
+}
+header h1
+{
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px ;
+}
+h3
+{
+    text-align: left;
+}
+header p
+{
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px ;}
+#comments {
+    background-image: url("../images/pw_maze_black_2X.png");
+}
+/*   .overlay  {*/
+/*    !*display: none;*!*/
+/*    position: absolute;*/
+/*     top:0px;*/
+
+/*    margin: auto;*/
+/*    width: 100%;*/
+/*    height: 50px;*/
+/*    border-radius: 50%;*/
+
+/*}*/
+
+
+
+.overlay {
+    position: relative;
+    top: -66%;
+    left:2px;
+    width: 67%;
+    height:47%;
+    border-radius: 50%;
+    padding-top:33% ;
+
+    margin: auto;
+    display: block;
+    background-color: rgba(0,0,0,0.7);
+}
+.overlay
+{
+    transform: scale(0);
+    /*display: none;*/
+
+}
+
+.overlay:hover
+{
+
+
+    /*transition: all 1s ease-in-out;*/
+    /*transform: scale(0);*/
+
+
+    /*display: none;*/
+
+}
+.modal-header .btn-close
+    {
+    float: left;
+    /*background-color: red;*/
+    margin: 0;
+
+
+}
+
+/*media */
+ .tab-content .media img
+ {
+     width: 60px;
+     height: auto;
+ }
+
+.mix{
+    display: inline-flex;
+
+}
+

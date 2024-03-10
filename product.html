@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontawesome.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="css/solid.css">
+
+    <link rel="stylesheet" href="css/regular.css">
+    <link rel="stylesheet" href="../Bug_Features/Bug_Features/wwwroot/SiteThemplate/assets/css/svg-with-js.css">
+    <link rel="stylesheet" href="../Bug_Features/Bug_Features/wwwroot/SiteThemplate/assets/css/v4-shims.css">
+    <link href="css/animate.css" rel="stylesheet">
+
+</head>
+<body dir="rtl">
+
+<!--<body>-->
+
+<!--/* toast */-->
+<div class="toast">
+    <div class="toast-header">ALert</div>
+    <div class="toast-body "> this is an toast</div>
+</div>
+<!--/* modal */-->
+<div class="modal" id="mymodal">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title rounded-circle"> Login / Register </h4>
+
+                <button type="button" class="btn-close" data-bs-dismiss="modal">
+                    <span class="fa fa-remove text-danger"></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="col-12">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item"><a href="#Login" class="nav-link" data-bs-toggle="tab">Login</a></li>
+                        <li class="nav-item"><a href="#Register" class="nav-link" data-bs-toggle="tab">Register</a>
+                        </li>
+
+
+                    </ul>
+                    <div class="tab-content ">
+                        <div class="tab-pane active" id="Login">
+                            <form action="#" method="post" class="wp">
+                                <input type="text" class="form-control mt-3" required placeholder="User name *">
+                                <input type="password" class="form-control mt-3" required placeholder="password *">
+                                <input type="submit" class="btn btn-outline-success mt-3  w-100 btn-block ">
+
+                            </form>
+
+                        </div>
+                        <div class="tab-pane" id="Register">
+                            <form action="#" method="post" class="wp">
+                                <input type="text" class="form-control mt-3" required placeholder="User name *">
+                                <input type="text" class="form-control mt-3" required placeholder="Full name *">
+                                <input type="password" class="form-control mt-3" required placeholder="password *">
+                                <input type="submit" class="btn btn-outline-success mt-3 btn-block ">
+
+                            </form>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" data-bs-dismiss="modal"> Close</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!--/* Menu */-->
+<nav class="container-fluid bg-warning ">
+    <ul class="nav justify-content-start">
+        <li class="nav-item active "><a href="index.html" class="nav-link active">Home Page</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+
+    </ul>
+</nav>
+
+
+
+<!--/* Navbar */-->
+<nav class="navbar navbar-dark  bg-dark container-fluid  justify-content-center navbar-expand-md sticky-top ">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="row">
+        <div class="col-12">
+
+
+            <ul class="navbar-nav " id="mynav">
+                <li class="nav-item active "><a href="#" class="nav-link active">home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link disabled">Digitals</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Bergains</a>Books</li>
+                <li class="nav-item"><a href="#" class="nav-link">Clothes</a></li>
+            </ul>
+        </div>
+    </div>
+    <a class="navbar-brand "><img src="images/Logo.png" width="50" /></a>
+
+<!--    فرم جستجو-->
+    <form class="d-flex">
+        <div class="input-group  input-group-sm mb-3">
+
+            <div class="input-group">
+                <input placeholder="search">
+                <button class="btn btn-success" type="submit"><span  class="fa fa-search"></span></button>
+                </div>
+
+        </div>
+    </form>
+</nav>
+
+<!--/* breadcrumbs */-->
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <nav aria-label="breadcrumb">
+                <ul class="breadcrumb bg-dark  bg-opacity-10 ">
+                    <li class="breadcrumb-item p-3 "><a class="#"> Home</a></li>
+                    <li class="breadcrumb-item p-3"><a class="#"> Project</a></li>
+                    <li class="breadcrumb-item p-3" aria-current="page"><a class="#"> Project-name</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+    <div class="row shadow-lg  mt-5  p-3">
+
+        <div class="col-sm text-start ">
+            <strong class="wow animate__bounceInDown"> UNI SANS</strong>
+            <p class="justify-content">prion iacuilis purus digni cosequat sem digni ssim.Donec potitlora entum susipit
+                aenean rthonus posuere odio in tinckdunk. prion iacuilis purus digni cosequat sem digni ssim </p>
+            <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#more"
+                    aria-expanded="false" aria-controls="more">More
+            </button>
+
+            <p class="collapse" id="more">
+                prion iacuilis purus digni cosequat sem digni ssim.Donec entum digni ssim.
+                NEATLY PAGKAGED
+                prion iacuilis purus digni cosequat sem digni ssim.Donec entum digni ssim
+                SEO OPTIMIZED
+                prion iacuilis purus digni cosequat sem digni ssim.Donec entum digni ssi
+            </p>
+
+        </div>
+
+        <div class="col-sm text-start">
+            <img src="Images/portfolio-pic3.jpg" class="img-fluid img-thumbnail" data-bs-toggle="tooltip"
+                 data-popper-placement="left" title="Image of the Project"/>
+
+
+        </div>
+
+    </div>
+
+
+</div>
+<div class="container">
+    <!--   <div class="row shadow-lg  mt-5 p-3"></div>-->
+    <div class="row shadow-lg  mt-5 p-3">
+
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a href="#description" data-bs-toggle="tab" class="nav-link">description</a></li>
+            <li class="nav-item"><a href="#comment" data-bs-toggle="tab" class="nav-link">comment</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane container active text-end" id="description">
+                prion iacuilis purus digni cosequat sem digni ssim.Donec potitlora entum susipit aenean rthonus posuere
+                odio in tinckdunk. prion iacuilis purus digni cosequat sem digni ssim
+                <div class="spinner-border erm text text-success"></div>
+                <div class="spinner-grow spinner-grow-sm text text-info"></div>
+
+            </div>
+            <div class="tab-pane container pt-5  text-end" id="comment">
+                <div class="row">
+                    <div>
+                        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#mymodal"> Login and
+                            comment <span class="spinner-border text-light"></span>
+                        </button>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="media  border  pt-3">
+                            <img src="images/7.jpg" class="rounded-circle"/>
+                            <div class="media-body p-3">
+                                <h4> User1</h4>
+                                <p>
+                                    prion iacuilis purus digni cosequat sem digni ssim.Donec potitlora entum susipit
+                                    aenean rthonus posuere odio in tinckdunk. prion iacuilis purus digni cosequat sem
+                                    digni ssim
+                                    <a class="btn btn-warning" data-bs-toggle="modal"
+                                       data-bs-target="#mymodal">Reply</a>
+
+                                </p>
+                                <div class="media  border  p-3">
+                                    <img src="images/8.jpg" class="rounded-circle"/>
+                                    <div class="media-body p-5">
+                                        <h4> User2</h4>
+                                        <p>
+                                            prion iacuilis purus digni cosequat sem digni ssim.Donec potitlora entum
+                                            susipit aenean rthonus posuere odio in tinckdunk. prion iacuilis purus digni
+                                            cosequat sem digni ssim
+                                            <a class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#mymodal">Reply</a>
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="pagination pagination-sm justify-content-center">
+                            <li class="page-item disabled"><a href="#" class="page-link ">Prev</a></li>
+                            <li class="page-item active"><a href="#" class="page-link ">1</a></li>
+                            <li class="page-item"><a href="#" class="page-link">2</a></li>
+                            <li class="page-item"><a href="#" class="page-link">3</a></li>
+                            <li class="page-item"><a href="#" class="page-link">Next</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<script src="js/jquery-3.6.0.js"></script>
+<!--<script src="js/bootstrap.min.js"></script>-->
+<script src="js/wow.js"></script>
+<script>
+    $(document).ready(function () {
+
+
+            $('[data-bs-toggle="tooltip"]').tooltip();
+            $('.toast').toast('show');
+            // new WOW().init();
+
+        }
+    )
+</script>
+
+<script>
+    new WOW().init();
+</script>
+
+</body>
+</html>
